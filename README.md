@@ -2,6 +2,8 @@
 
 This project evaluates the **causal impact of a financial incentive on pension payout timing**. It demonstrates the ability to clean large-scale data, construct treatment-control cohorts, and apply causal inference methods to real-world policy evaluation.
 
+This analysis was first conducted in Stata. I plan to produce a corresponding implementation in **Python**.
+
 > ⚠️ **Note:** Due to data confidentiality, raw data and output files are not shared in this repository.
 
 ---
@@ -68,3 +70,4 @@ Taken together, these tests strengthen one's confidence that the DiD estimates c
 | `3. Sum_Stats_by_Cohort.do` | Generates summary statistics of the months between the potential and actual payout start date by birth cohort |
 | `4. Generate_DID_Data.do` | Constructs DiD-ready panel with cohort, time and treatment indicators | 
 | `5. DID_Analysis.do` | Runs fixed-effects DiD regressions to estimate causal treatment effects, with robustness and placebo checks |
+
